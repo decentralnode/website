@@ -701,6 +701,13 @@ input[type="radio"]+label:before {
 
 /* Icon */
 
+.icon2 {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+    font-size: xx-large;
+}
+
 .icon {
     text-decoration: none;
     border-bottom: none;
@@ -1387,13 +1394,17 @@ body.is-preload #bg:before {
 #header .logo {
     width: 5.5rem;
     height: 5.5rem;
-    line-height: 5.5rem;
+    line-height: 6.5rem;
     border: solid 1px #ffffff;
     border-radius: 100%;
 }
 
 #header .logo .icon:before {
     font-size: 2rem;
+}
+
+#header .logo .icon2 {
+    font-size: 2.5rem;
 }
 
 #header .content {
